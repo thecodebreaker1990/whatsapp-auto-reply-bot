@@ -1,0 +1,30 @@
+{
+  "name": "whatsapp-auto-reply-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodebreaker1990/whatsapp-auto-reply-bot.git"
+  },
+  "keywords": [],
+  "author": "Alapan Chatterjee",
+  "bugs": {
+    "url": "https://github.com/thecodebreaker1990/whatsapp-auto-reply-bot/issues"
+  },
+  "homepage": "https://github.com/thecodebreaker1990/whatsapp-auto-reply-bot#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "qrcode": "^1.5.4",
+    "whatsapp-web.js": "^1.34.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
