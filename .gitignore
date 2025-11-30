@@ -122,6 +122,7 @@ dist
 
 #WhatsApp Web.js cache directory
 .wwebjs_cache/
+.wwebjs_auth/
 
 # TernJS port file
 .tern-port
